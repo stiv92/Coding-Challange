@@ -1,0 +1,60 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+body > div{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3%;
+  text-align: center;
+  padding: 70px 60px 70px;
+  margin: 2% 20% 4% 20%;
+}
+
+header{
+  display: inline-block;
+  color: #00dd00
+
+}
+img{
+  height: 100px;
+  width: 220px;
+}
+header h1{
+  font-family: 'Spartan', sans-serif;
+}
+
+nav{
+  background-color: #00dd00;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+main{
+  text-align: left;
+  color: white;
+  font-family: 'Spartan', sans-serif;}
+
+.caricaGino, .caricaMike, .caricaFede {
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.caricaGino{
+  width: 250px;
+  color: yellow;
+  background-color: yellow;
+}
+
+.caricaMike{
+  width: 400px;
+  color: green;
+  background-color: green;
+}
+
+.caricaFede{
+  width: 100px;
+  color: red;
+  background-color: red;
+}
